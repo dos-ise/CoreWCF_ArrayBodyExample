@@ -14,11 +14,11 @@
 
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Service.Common\Service.Common.csproj" />
+    <Folder Include="Properties\" />
   </ItemGroup>
 
 
   <ItemGroup>
-    <Folder Include="Properties\" />
+    <ProjectReference Include="..\Service.Common\Service.Common.csproj" />
   </ItemGroup>
 </Project>
